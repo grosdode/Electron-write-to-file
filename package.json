@@ -1,0 +1,16 @@
+{
+  "name": "memorytest",
+  "version": "1.0.0",
+  "description": "Test to write continuously to disk",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "author": "grosdode",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.0",
+    "electron-builder": "^23.0.3"
+  }
+}
