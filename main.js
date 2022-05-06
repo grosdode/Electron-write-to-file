@@ -33,8 +33,6 @@ const createWindow = () => {
   if (isInDevMode) mainWindow.webContents.openDevTools();
 };
 
-// app.setAppUserModelId(process.execPath); // TODO delete for production
-
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
 // Some APIs can only be used after this event occurs.
